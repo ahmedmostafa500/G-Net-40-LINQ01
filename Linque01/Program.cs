@@ -28,18 +28,18 @@
             ////        }
             #endregion
             #region question3
-        //    var sortedProducts = ProductList
-        //.OrderBy(p => p.UnitPrice)
-        //.Select(p => new
-        //{
-        //    Name = p.ProductName,
-        //    Price = p.UnitPrice
-        //});
+        ////    var sortedProducts = ProductList
+        ////.OrderBy(p => p.UnitPrice)
+        ////.Select(p => new
+        ////{
+        ////    Name = p.ProductName,
+        ////    Price = p.UnitPrice
+        ////});
 
-        //    foreach (var product in sortedProducts)
-        //    {
-        //        Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
-        //    }
+        ////    foreach (var product in sortedProducts)
+        ////    {
+        ////        Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
+        ////    }
 
             #endregion
         }
