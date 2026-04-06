@@ -114,19 +114,34 @@
             //        }
             #endregion
             #region question9
-    //        var result = ProductList
-    //.Where(p => p.Category == "Beverages")          
-    //.OrderByDescending(p => p.UnitsInStock)     
-    //.Select(p => new
-    //{
-    //    Name = p.ProductName,
-    //    Stock = p.UnitsInStock
-    //});
+            //        var result = ProductList
+            //.Where(p => p.Category == "Beverages")          
+            //.OrderByDescending(p => p.UnitsInStock)     
+            //.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Stock = p.UnitsInStock
+            //});
 
-    //        foreach (var item in result)
-    //        {
-    //            Console.WriteLine($"Name: {item.Name}, Stock: {item.Stock}");
-    //        }
+            //        foreach (var item in result)
+            //        {
+            //            Console.WriteLine($"Name: {item.Name}, Stock: {item.Stock}");
+            //        }
+            #endregion
+            #region question10
+            //var result = from c in Customers
+            //             from o in c.Orders
+            //             where o.OrderDate.Year >= 1997
+            //             select new
+            //             {
+            //                 CustomerID = c.CustomerID,
+            //                 OrderDate = o.OrderDate
+            //             };
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"CustomerID: {item.CustomerID}, OrderDate: {item.OrderDate}");
+            //}
             #endregion
         }
     }
