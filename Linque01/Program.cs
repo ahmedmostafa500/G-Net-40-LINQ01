@@ -98,19 +98,34 @@
             //        }
             #endregion
             #region question8
-    //        var sortedProducts = ProductList
-    //.OrderBy(p => p.Category)              
-    //.ThenByDescending(p => p.UnitPrice)  
+            //        var sortedProducts = ProductList
+            //.OrderBy(p => p.Category)              
+            //.ThenByDescending(p => p.UnitPrice)  
+            //.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Category = p.Category,
+            //    Price = p.UnitPrice
+            //});
+
+            //        foreach (var product in sortedProducts)
+            //        {
+            //            Console.WriteLine($"Category: {product.Category}, Name: {product.Name}, Price: {product.Price}");
+            //        }
+            #endregion
+            #region question9
+    //        var result = ProductList
+    //.Where(p => p.Category == "Beverages")          
+    //.OrderByDescending(p => p.UnitsInStock)     
     //.Select(p => new
     //{
     //    Name = p.ProductName,
-    //    Category = p.Category,
-    //    Price = p.UnitPrice
+    //    Stock = p.UnitsInStock
     //});
 
-    //        foreach (var product in sortedProducts)
+    //        foreach (var item in result)
     //        {
-    //            Console.WriteLine($"Category: {product.Category}, Name: {product.Name}, Price: {product.Price}");
+    //            Console.WriteLine($"Name: {item.Name}, Stock: {item.Stock}");
     //        }
             #endregion
         }
