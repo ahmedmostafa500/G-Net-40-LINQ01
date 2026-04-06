@@ -28,19 +28,33 @@
             ////        }
             #endregion
             #region question3
-        ////    var sortedProducts = ProductList
-        ////.OrderBy(p => p.UnitPrice)
-        ////.Select(p => new
-        ////{
-        ////    Name = p.ProductName,
-        ////    Price = p.UnitPrice
-        ////});
+            ////    var sortedProducts = ProductList
+            ////.OrderBy(p => p.UnitPrice)
+            ////.Select(p => new
+            ////{
+            ////    Name = p.ProductName,
+            ////    Price = p.UnitPrice
+            ////});
 
-        ////    foreach (var product in sortedProducts)
-        ////    {
-        ////        Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
-        ////    }
+            ////    foreach (var product in sortedProducts)
+            ////    {
+            ////        Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
+            ////    }
 
+            #endregion
+            #region question4
+    //        var filteredProducts = ProductList
+    //.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30)
+    //.Select(p => new
+    //{
+    //    Name = p.ProductName,
+    //    Price = p.UnitPrice
+    //});
+
+    //        foreach (var product in filteredProducts)
+    //        {
+    //            Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
+    //        }
             #endregion
         }
     }
