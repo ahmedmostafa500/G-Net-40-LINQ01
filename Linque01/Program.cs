@@ -168,6 +168,18 @@
             //    Console.WriteLine(word);
             //}
             #endregion
+            #region question13
+            //string[] Arr = { "first", "five", "six", "eight", "nine", "ten" };
+
+            //var result = Arr
+            //    .Where(w => w.Length > 1 && w[1] == 'i')  
+            //    .Reverse();                                
+
+            //foreach (var word in result)
+            //{
+            //    Console.WriteLine(word);
+            //}
+            #endregion
         }
     }
 }
