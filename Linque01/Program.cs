@@ -143,6 +143,19 @@
             //    Console.WriteLine($"CustomerID: {item.CustomerID}, OrderDate: {item.OrderDate}");
             //}
             #endregion
+            #region question11
+    //        var result = ProductList
+    //.Select((p, index) => new
+    //{
+    //    Position = index + 1,    
+    //    Name = p.ProductName
+    //});
+
+    //        foreach (var item in result)
+    //        {
+    //            Console.WriteLine($"{item.Position}. {item.Name}");
+    //        }
+            #endregion
         }
     }
 }
