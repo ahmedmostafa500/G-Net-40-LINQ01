@@ -43,17 +43,31 @@
 
             #endregion
             #region question4
-    //        var filteredProducts = ProductList
-    //.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30)
+            //        var filteredProducts = ProductList
+            //.Where(p => p.UnitPrice >= 10 && p.UnitPrice <= 30)
+            //.Select(p => new
+            //{
+            //    Name = p.ProductName,
+            //    Price = p.UnitPrice
+            //});
+
+            //        foreach (var product in filteredProducts)
+            //        {
+            //            Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
+            //        }
+            #endregion
+            #region question5
+    //        var availableCondiments = ProductList
+    //.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments")
     //.Select(p => new
     //{
     //    Name = p.ProductName,
-    //    Price = p.UnitPrice
+    //    Stock = p.UnitsInStock
     //});
 
-    //        foreach (var product in filteredProducts)
+    //        foreach (var product in availableCondiments)
     //        {
-    //            Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
+    //            Console.WriteLine($"Name: {product.Name}, Stock: {product.Stock}");
     //        }
             #endregion
         }
