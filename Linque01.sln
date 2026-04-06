@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linque01", "Linque01\Linque01.csproj", "{540F760D-9316-4371-B241-CCD6C1402064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{540F760D-9316-4371-B241-CCD6C1402064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540F760D-9316-4371-B241-CCD6C1402064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540F760D-9316-4371-B241-CCD6C1402064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540F760D-9316-4371-B241-CCD6C1402064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13B5439C-C4FA-4E21-8898-7FBB6A934A0F}
+	EndGlobalSection
+EndGlobal
