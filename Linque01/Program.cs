@@ -85,16 +85,32 @@
             //        }
             #endregion
             #region question7
-    //        var result = ProductList
-    //.Select((p, index) => new
+            //        var result = ProductList
+            //.Select((p, index) => new
+            //{
+            //    Position = index + 1,
+            //    Name = p.ProductName
+            //});
+
+            //        foreach (var item in result)
+            //        {
+            //            Console.WriteLine($"{item.Position}. {item.Name}");
+            //        }
+            #endregion
+            #region question8
+    //        var sortedProducts = ProductList
+    //.OrderBy(p => p.Category)              
+    //.ThenByDescending(p => p.UnitPrice)  
+    //.Select(p => new
     //{
-    //    Position = index + 1,
-    //    Name = p.ProductName
+    //    Name = p.ProductName,
+    //    Category = p.Category,
+    //    Price = p.UnitPrice
     //});
 
-    //        foreach (var item in result)
+    //        foreach (var product in sortedProducts)
     //        {
-    //            Console.WriteLine($"{item.Position}. {item.Name}");
+    //            Console.WriteLine($"Category: {product.Category}, Name: {product.Name}, Price: {product.Price}");
     //        }
             #endregion
         }
